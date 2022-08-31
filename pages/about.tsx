@@ -76,10 +76,10 @@ export default function about() {
               initial={'hidden'}
               whileInView='visible'
               viewport={{ amount: 'some' }}
-              transition={{ duration: 0.7, delay: index / 2 }}
+              transition={{ duration: 0.5, delay: index / 2 }}
               variants={{
                 visible: { opacity: 1, x: 0 },
-                hidden: { opacity: 0, x: -50 },
+                hidden: { opacity: 0, x: -30 },
               }}
               className='flex flex-col bg-white'
               key={index}
@@ -102,10 +102,10 @@ export default function about() {
               initial={'hidden'}
               whileInView='visible'
               viewport={{ amount: 'some' }}
-              transition={{ duration: 0.7, delay: index / 2 }}
+              transition={{ duration: 0.5, delay: index / 2 }}
               variants={{
                 visible: { opacity: 1, x: 0 },
-                hidden: { opacity: 0, x: -50 },
+                hidden: { opacity: 0, x: -30 },
               }}
               className='flex flex-col bg-white'
               key={index}

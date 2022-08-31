@@ -14,10 +14,10 @@ export default function VisitCard({ img, title, desc, time }: CardType) {
       initial={'hidden'}
       whileInView='visible'
       viewport={{ amount: 'some' }}
-      transition={{ duration: 0.7, delay: time / 3 }}
+      transition={{ duration: 0.5, delay: time / 3 }}
       variants={{
         visible: { opacity: 1, x: 0 },
-        hidden: { opacity: 0, x: -70 },
+        hidden: { opacity: 0, x: -40 },
       }}
     >
       <div>

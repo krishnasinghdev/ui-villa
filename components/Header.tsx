@@ -22,7 +22,7 @@ export default function Header({ t1, t2 }: HeaderType) {
       <motion.p
         initial={'hidden'}
         whileInView='visible'
-        viewport={{ amount: 'some' }}
+        viewport={{ once: true }}
         transition={{ duration: 0.7, delay: 0.1 }}
         variants={{
           visible: { opacity: 1, y: 0 },
