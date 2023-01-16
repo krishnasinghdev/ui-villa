@@ -13,7 +13,7 @@ export default function Hero() {
             visible: { opacity: 1, y: 0 },
             hidden: { opacity: 0, y: 70 },
           }}
-          className='text-4xl sm:text-5xl lg:text-7xl font-f1 font-semibold'
+          className='text-4xl sm:text-5xl lg:text-7xl font-f1 font-semibold text-black'
         >
           Welcome to <span className='italic'>Villa</span> resort
         </motion.h1>
@@ -26,7 +26,7 @@ export default function Hero() {
             visible: { opacity: 1, y: 0 },
             hidden: { opacity: 0, y: 70 },
           }}
-          className='mt-2  sm:text-xl lg:text-2xl'
+          className='mt-2  sm:text-xl lg:text-2xl text-black'
         >
           Discover our world-class hotel & restaurant resort.
         </motion.h2>
