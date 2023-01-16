@@ -23,9 +23,9 @@ module.exports = {
         'f1': ['playfair-display', 'serif']
       },
       backgroundImage: {
-        'main': 'https://preview.colorlib.com/theme/villa/img/hero_1.jpg.webp',
+        'main': 'url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg.webp")',
         'round': 'url("https://preview.colorlib.com/theme/villa/img/round.png.webp")',
-        'common': 'https://preview.colorlib.com/theme/villa/img/hero_2.jpg.webp',
+        'common': 'url("https://preview.colorlib.com/theme/villa/img/hero_2.jpg.webp")',
       }
     },
   },
