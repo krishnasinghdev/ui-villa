@@ -36,7 +36,6 @@ export default function Slider() {
       >
         {sliderData.map((img, index) => (
           <SwiperSlide key={index}>
-            <div>dd
             <Image
               src={img}
               height={750}
@@ -44,7 +43,6 @@ export default function Slider() {
               className='shadow-xl'
               alt='slider iamges'
               />
-              </div>
           </SwiperSlide>
         ))}
       </Swiper>
